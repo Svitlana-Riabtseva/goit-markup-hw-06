@@ -985,10 +985,6 @@ padding-bottom: 72px;
   
 }
 
-.checkbox-icon {
- flex-shrink: 0;
-}
-
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -1010,7 +1006,10 @@ padding-bottom: 72px;
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
+  flex-shrink: 0;
+  margin-right: 8px;
+  }
+
 
 .visually-hidden:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf;

@@ -1194,7 +1194,8 @@ padding-bottom: 72px;
 }
 
 .socials-title-soc {
-    align-self: self-start;
+    align-self: flex-start;
+    
 }
 
 .form-container {
@@ -1368,13 +1369,14 @@ padding-bottom: 72px;
   flex-wrap: nowrap;
   gap: unset;
  }
-  
+ 
   .footer-text {
-    max-width: 264px;
+    width: 264px;
+    height: 72px;
   }
   
 .container-footer-social {
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 .form-container {

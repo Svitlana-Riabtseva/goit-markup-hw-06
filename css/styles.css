@@ -563,7 +563,6 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
-padding-top: 96px;
 padding-bottom: 72px;
 }
 
@@ -1158,6 +1157,7 @@ padding-bottom: 72px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    
   
 }
 
@@ -1193,10 +1193,13 @@ padding-bottom: 72px;
     justify-content: start;
 }
 
-.socials-title-soc {
-    align-self: flex-start;
-    
+.container-footer-social {
+ 
 }
+
+.footer-title-soc {
+    align-self: flex-start;
+    }
 
 .form-container {
     flex-direction: column;
@@ -1368,6 +1371,7 @@ padding-bottom: 72px;
   align-items: baseline;
   flex-wrap: nowrap;
   gap: unset;
+  max-width: 1158px;
  }
  
   .footer-text {
@@ -1381,7 +1385,7 @@ padding-bottom: 72px;
 
 .form-container {
   margin-left: 80px;
-  min-width: 453px;
+    min-width: 453px;
   height: 80px;
 }
 
